@@ -1,12 +1,72 @@
-# React + Vite
+React Login Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple login and signup form built using React.js. It includes an interactive UI with dynamic form switching between login and signup modes.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Toggle between Login & Signup
 
-## Expanding the ESLint configuration
+Smooth UI design with CSS styling
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dynamic state management using React Hooks
+
+User input fields for Username, Email, and Password
+
+Interactive button styling and hover effects
+
+ 📂 Project Structure
+
+```
+📦 login-form
+├── 📂 src
+│   ├── 📂 assets         # Icons for username, email, and password
+│   ├── 📂 components     # Reusable components
+│   ├── 📜 Login.js       # Main login component
+│   ├── 📜 login.css      # Styling for the login page
+│   ├── 📜 App.js         # Main App component
+│   ├── 📜 index.js       # Entry point
+│
+├── 📜 README.md          # Project documentation
+├── 📜 package.json       # Dependencies and scripts
+├── 📜 .gitignore         # Ignored files for Git
+```
+
+ 🎨 UI Preview
+
+![Login UI Preview](./preview.png) *(Replace with actual screenshot)*
+
+ 🛠 Installation & Setup
+
+1. Clone the repository**
+  
+   git clone https://github.com/yourusername/react-login-form.git
+   cd react-login-form
+  
+
+2. Install dependencies**
+  
+   npm install
+
+
+3. Start the development server**
+ 
+   npm start
+
+
+4. Open the project in the browser**
+  
+   http://localhost:3000
+  
+
+ 🏗 Technologies Used
+
+*React.js - Frontend framework
+- CSS - Styling
+- React Hooks (useState)** - State management
+
+📝 How It Works
+
+- Clicking **Sign In** switches the form to **Login mode**, hiding the username field.
+- Clicking **Sign Up** switches back, revealing the username field.
+- The buttons update dynamically based on the current mode.
+
